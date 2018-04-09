@@ -20,11 +20,10 @@ function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
 
+  sayMy();
+
   function sayMy() {
     var name = "Kristin";
     console.log(name);
-
-  sayMy(); // this line could also come before line 23 (the function sayMy() line)
-
   }
 }
